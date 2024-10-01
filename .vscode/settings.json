@@ -1,0 +1,16 @@
+{
+    "dart.flutterSdkPath": ".fvm/flutter_sdk",
+      "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit"
+      },
+    // Remove .fvm files from search
+    "search.exclude": {
+      "**/.fvm": true
+    },
+    // Remove from file watching
+    "files.watcherExclude": {
+      "**/.fvm": true
+    },
+    "debug.toolBarLocation": "commandCenter",
+    "java.configuration.updateBuildConfiguration": "disabled"
+  }
