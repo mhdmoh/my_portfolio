@@ -99,7 +99,7 @@ class _DashboardPageState extends State<DashboardPage> {
         children: [
           SingleChildScrollView(
             controller: _scrollController,
-            physics: const BouncingScrollPhysics(),
+            physics: const BouncingScrollPhysics(parent: AlwaysScrollableScrollPhysics()),
             child: Row(
               children: [
                 if (context.isDesktop)

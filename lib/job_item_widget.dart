@@ -1,6 +1,7 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:flutter/material.dart';
 import 'package:my_portfolio/config/colors.dart';
+import 'package:my_portfolio/config/extensions.dart';
 import 'package:my_portfolio/config/my_dimentions.dart';
 import 'package:my_portfolio/core/utils/funcs.dart';
 import 'package:my_portfolio/core/widgets/highlightable_card_widget.dart';
@@ -23,6 +24,13 @@ class _JobItemWidgetState extends State<JobItemWidget> {
 
   @override
   Widget build(BuildContext context) {
+    final duration = Padding(
+      padding: const EdgeInsets.symmetric(vertical: 4),
+      child: Text(
+        "${widget.job.start} - ${widget.job.end}",
+        style: const TextStyle(color: Colors.grey),
+      ),
+    );
     return HighlightableCard(
       onTapped: widget.job.website != null ? () => openUrl(widget.job.website!) : null,
       child: Padding(
@@ -30,18 +38,18 @@ class _JobItemWidgetState extends State<JobItemWidget> {
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Padding(
-              padding: const EdgeInsets.symmetric(vertical: 4),
-              child: Text(
-                "${widget.job.start} - ${widget.job.end}",
-                style: const TextStyle(color: Colors.grey),
-              ),
-            ),
-            const SizedBox(width: 16),
+            if (context.isNotMobile) ...[
+              duration,
+              const SizedBox(width: 16),
+            ],
             Expanded(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  if (context.isMobile) ...[
+                    duration,
+                    const SizedBox(height: 8),
+                  ],
                   RichText(
                     text: TextSpan(
                       style: TextStyle(
