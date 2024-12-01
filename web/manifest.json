@@ -1,11 +1,11 @@
 {
-    "name": "my_portfolio",
-    "short_name": "my_portfolio",
+    "name": "Portfolio",
+    "short_name": "Portfolio",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#014035",
+    "theme_color": "#4caf50",
+    "description": "MhdMoh's Portfolio.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
@@ -20,13 +20,13 @@
             "type": "image/png"
         },
         {
-            "src": "icons/Icon-maskable-192.png",
+            "src": "icons/Icon-192-maskable.png",
             "sizes": "192x192",
             "type": "image/png",
             "purpose": "maskable"
         },
         {
-            "src": "icons/Icon-maskable-512.png",
+            "src": "icons/Icon-512-maskable.png",
             "sizes": "512x512",
             "type": "image/png",
             "purpose": "maskable"

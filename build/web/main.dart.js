@@ -67401,7 +67401,7 @@ $0(){this.a.d=!1},
 $S:0}
 A.BB.prototype={
 V(a){var s=null,r=A.b7(a,B.F,t.w).w.a.a*0.4
-return A.oU(s,s,B.x,s,s,new A.ej(s,s,s,s,A.a([new A.hS(0,B.fO,A.az(18,76,175,80),B.h,r*0.9)],t.sq),s,B.fQ),s,r,s,s,s,s,r)}}
+return A.oU(s,s,B.x,s,s,new A.ej(s,s,s,s,A.a([new A.hS(0,B.fO,A.az(25,76,175,80),B.h,r*0.4)],t.sq),s,B.fQ),s,r,s,s,s,s,r)}}
 A.vd.prototype={
 aj(){return new A.LJ(B.h,B.n)},
 gS(){return this.c}}
@@ -67461,10 +67461,10 @@ case 3:return $.ak.ab$.z.i(0,s.r)}},
 V(a){var s,r,q,p=this,o=null,n=t.E,m=A.a([],n),l=t.w
 if(A.fk(A.b7(a,B.F,l).w.a)===B.aB)m.push(A.jE(o,o,A.b7(a,B.F,l).w.a.a*0.3))
 s=A.a([],n)
-if(A.fk(A.b7(a,B.F,l).w.a)===B.aB)s.push(A.jE(o,A.b7(a,B.F,l).w.a.b*0.1,o))
+if(A.fk(A.b7(a,B.F,l).w.a)===B.aB)s.push(A.jE(o,A.b7(a,B.F,l).w.a.b*0.15,o))
 if(A.fk(A.b7(a,B.F,l).w.a)!==B.aB)s.push(B.lm)
 r=A.fk(A.b7(a,B.F,l).w.a)===B.aB?20:0
-s.push(A.kw(A.kh(new A.cF(new A.bu(r,0,r,0),A.E2(A.dB("In 2019, I embarked on my journey into mobile application development. Since then, I have had the privilege of building applications for a software development agency, a startup, and various freelance clients, as well as leading a development team.\n\nMy primary focus is creating high-performance mobile applications with clean architecture, but I am also expanding my skill set by training in backend development.\n\nDriven by curiosity, I consistently invest my free time in learning new technologies, even those I may not use immediately, as I believe in continuous growth and staying adaptable in a rapidly evolving industry.\n",A.cq(o,o,B.bT,o,o,o,o,o,o,o,o,18,o,o,o,o,o,!0,o,o,o,o,o,o,o,o)),!0,o),o)),B.bk,B.bk))
+s.push(A.kw(A.kh(new A.cF(new A.bu(r,0,r,0),A.E2(A.dB("In 2019, I embarked on my journey into mobile application development. Since then, I have had the privilege of building applications for a software development agency, a startup, and various freelance clients, as well as leading a development team.\n\n\nDriven by curiosity, I consistently invest my free time in learning new technologies, even those I may not use immediately, as I believe in continuous growth and staying adaptable in a rapidly evolving industry.\n",A.cq(o,o,B.bT,o,o,o,o,o,o,o,o,18,o,o,o,o,o,!0,o,o,o,o,o,o,o,o)),!0,o),o)),B.bk,B.bk))
 r=A.a([B.j0],n)
 if(A.fk(A.b7(a,B.F,l).w.a)!==B.aB)r.push(new A.cF(B.d1,A.dB("Experience",A.cq(o,o,B.i,o,o,o,o,o,o,o,o,20,o,o,B.aD,o,o,!0,o,o,o,o,o,o,o,o)),o))
 r.push(new A.kL(B.b.gM($.afn),p.e))

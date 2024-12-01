@@ -112,7 +112,7 @@ class _DashboardPageState extends State<DashboardPage> {
                     children: [
                       if (context.isDesktop)
                         SizedBox(
-                          height: MediaQuery.sizeOf(context).height * 0.1,
+                          height: MediaQuery.sizeOf(context).height * 0.15,
                         ),
                       if (!context.isDesktop) const HeaderInfo(),
                       Padding(

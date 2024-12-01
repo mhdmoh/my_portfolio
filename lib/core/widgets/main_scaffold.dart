@@ -15,8 +15,8 @@ class BluredWidget extends StatelessWidget {
         shape: BoxShape.circle,
         boxShadow: [
           BoxShadow(
-            color: MyColors.secondary.color.withAlpha(18),
-            blurRadius: width * 0.9,
+            color: MyColors.secondary.color.withAlpha(25),
+            blurRadius: width * 0.4,
           ),
         ],
       ),
