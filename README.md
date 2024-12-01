@@ -1,16 +1,20 @@
-# my_portfolio
+# My Portfolio Website
 
-A new Flutter project.
+This is my personal portfolio website, built using Flutter. It showcases my experience as a senior mobile developer, including projects I've worked on, my technical expertise, and contributions to the development community.
 
-## Getting Started
+## Features
+- Showcases a collection of projects.
+- Includes a contact form for potential employers or collaborators.
 
-This project is a starting point for a Flutter application.
+## Technologies Used
+- **Frontend:** Flutter
+- **Hosting:** GitHub Pages
 
-A few resources to get you started if this is your first Flutter project:
+## Contact
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Feel free to reach out to me via:
+- [LinkedIn](https://www.linkedin.com/in/mohamad-n-mohamad)
+- [Medium](https://medium.com/@mhd.nidal.mhd)
+- [Github](https://github.com/mhdmoh)
+- [Email](mailto:mhd.nidal.mhd@gmail.com)
+- [Mobile](mailto:+36205870460)
