@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:my_portfolio/config/colors.dart';
 import 'package:my_portfolio/dashboard_page.dart';
+import 'package:my_portfolio/models/article_model.dart';
 import 'package:my_portfolio/models/education_model.dart';
 import 'package:my_portfolio/models/job_model.dart';
 import 'package:my_portfolio/models/project_model.dart';
@@ -11,6 +12,7 @@ void main() async {
     JobModel.loadJobsFromJson(),
     EducationModel.loadEducationsFromJson(),
     ProjectModel.loadProjectsFromJson(),
+    ArticleModel.loadArticlesFromJson(),
   ]);
   runApp(const MyApp());
 }

@@ -1,0 +1,97 @@
+[
+    {
+        "androidLink": "https://play.google.com/store/apps/details?id=com.bubblz.app&pcampaignid=web_share",
+        "companyName": "Bubblz.io",
+        "description": "•Pop in and let the story begin with Bubblz 🫧🫧\n•Bubblz is a mobile app designed to help find nearby activities and hangouts in a fun and a spontaneous way! 🫧🫧\n•Through a map, you can either join bubbles (activities) nearby you or create your own.🏃🏻🏃‍♀️",
+        "imagePath": "assets/images/bubblz_app.png",
+        "iosLink": "https://apps.apple.com/hu/app/bubblz-activities-hangouts/id6477741139",
+        "link": "https://bubblz.io",
+        "projectName": "Bubblz",
+        "tags": [
+            "CI/CD",
+            "Unit Testing",
+            "Flavors",
+            "Build Configurations"
+        ]
+    },
+    {
+        "androidLink": "https://play.google.com/store/apps/details?id=me.protechgroup.medpocket&pcampaignid=web_share",
+        "companyName": "Protech L.L.C",
+        "description": "MedPocket simplifies medication management for patients and pharmacists. Patients can keep track of their medication schedules with personalized reminders, while pharmacists can easily manage inventory and place orders online.",
+        "imagePath": "assets/images/medpocket_app.png",
+        "iosLink": "https://apps.apple.com/hu/app/medpocket/id1631842042",
+        "link": "https://prolevant.com/project-medpocket.html",
+        "projectName": "MedPocket",
+        "tags": [
+            "Flutter",
+            "Dart",
+            "Clean Architecture",
+            "Push Notifications",
+            "OTP",
+            "Google Maps API"
+        ]
+    },
+    {
+        "companyName": "Protech L.L.C",
+        "description": "With features such as account management, bill payments, and money transfers, you can easily handle your finances from the palm of your hand. The app also provides real-time updates on your account activity and offers a range of security measures to ensure the safety of your transactions.",
+        "link": "https://prolevant.com/project-banking.html",
+        "projectName": "Fransabank Syria"
+    },
+    {
+        "companyName": "Protech L.L.C",
+        "description": "Your comprehensive government indicators app. Get real-time insights through indicators and charts, empowering you to make informed decisions and drive success.",
+        "link": "https://prolevant.com/project-indicators.html",
+        "projectName": "Indicators",
+        "tags": [
+            "Dynamic Reports",
+            "Dynamic UI Elements"
+        ]
+    },
+    {
+        "androidLink": "https://play.google.com/store/apps/details?id=com.prolevant.HR",
+        "companyName": "Protech L.L.C",
+        "description": "Your all-in-one employee management app. Simplify HR tasks with seamless check-ins, check-outs, vacation requests, and salary management. Streamline your workforce operations and empower your team with HR Management for efficient and hassle-free employee management.",
+        "imagePath": "assets/images/dawamk_app.png",
+        "link": "https://prolevant.com/project-hr.html",
+        "projectName": "Dawamk",
+        "tags": [
+            "Biometric Authentications"
+        ]
+    },
+    {
+        "androidLink": "https://play.google.com/store/apps/details?id=com.prosoft.protv",
+        "companyName": "Protech L.L.C",
+        "description": "Your all-in-one IPTV solution for live channels and VOD services. Stream your favorite TV shows, sports events, news, and movies in high-definition, all within a sleek and user-friendly interface. With a vast library of on-demand content, Our App ensures you never miss a moment of entertainment.",
+        "imagePath": "assets/images/protv_app.jpg",
+        "link": "https://prolevant.com/project-iptv.html",
+        "projectName": "ProTV",
+        "tags": [
+            "Native",
+            "Android",
+            "IOS",
+            "TV - Leanback"
+        ]
+    },
+    {
+        "companyName": "Protech L.L.C",
+        "description": "Simplify your business operations with our advanced ERP system. Streamline processes, gain real-time insights, and make informed decisions. Tailor the system to your needs and elevate your business to new heights.",
+        "link": "https://prolevant.com/project-erp.html",
+        "projectName": "VLP",
+        "tags": [
+            "ERP",
+            "Dynamic Permissions",
+            "Multi-Role"
+        ]
+    },
+    {
+        "companyName": "Protech L.L.C",
+        "description": "A ride-hailing app that connects passengers with nearby drivers for quick, reliable transportation. Users can book rides, track their driver’s location, and make secure payments, all within the app for a seamless travel experience.",
+        "projectName": "Payless",
+        "tags": [
+            "Native",
+            "Android",
+            "Google Maps API",
+            "SocketIO"
+        ]
+    }
+]

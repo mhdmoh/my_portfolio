@@ -1,6 +1,12 @@
 import 'package:flutter/material.dart';
 
-enum Sections { about, experience, education, projects }
+enum Sections {
+  about,
+  experience,
+  education,
+  articles,
+  projects,
+}
 
 class SectionNotifier {
   ///this will change automatically when scrolling

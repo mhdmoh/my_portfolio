@@ -1,0 +1,37 @@
+[
+    {
+        "company": "Bubblz",
+        "description": "Spearheaded the development of a mobile application from concept to deployment, ensuring high performance on both iOS and Android using Flutter. Integrated key features, optimized app scalability, and implemented CI/CD pipelines for efficient releases.",
+        "end": "PRESENT",
+        "start": "Oct.2023",
+        "tags": [
+            "Dart",
+            "Native",
+            "Cross-Platform",
+            "Clean Architecture",
+            "Firebase",
+            "Google Maps",
+            "Unit-Testing",
+            "CI/CD"
+        ],
+        "title": "Senior Mobile Application Developer",
+        "website": "https://bubblz.io"
+    },
+    {
+        "company": "PROTECH LLC",
+        "description": "Lead the design, development, and deployment of mobile applications for both iOS and Android platforms using Flutter. Optimize application performance and troubleshoot complex technical issues to ensure seamless functionality. Mentor junior developers, conduct code reviews, and maintain high coding standards. Integrate third-party APIs and services to support core app functionality.",
+        "end": "May.2024",
+        "start": "Oct.2021",
+        "tags": [
+            "Java",
+            "Swift",
+            "Dart",
+            "Native",
+            "Cross-Platform",
+            "Leadership",
+            "Clean Architecture"
+        ],
+        "title": "Team Leader | Senior Mobile Application Developer",
+        "website": "https://prolevant.com/index.html"
+    }
+]

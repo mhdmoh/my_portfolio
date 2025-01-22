@@ -1,6 +1,7 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
+import 'package:my_portfolio/article_item_widget.dart';
 import 'package:my_portfolio/config/extensions.dart';
 import 'package:my_portfolio/config/my_dimentions.dart';
 import 'package:my_portfolio/config/strings.dart';
@@ -9,6 +10,7 @@ import 'package:my_portfolio/core/widgets/main_scaffold.dart';
 import 'package:my_portfolio/core/widgets/socials_widget.dart';
 import 'package:my_portfolio/education_item_widget.dart';
 import 'package:my_portfolio/job_item_widget.dart';
+import 'package:my_portfolio/models/article_model.dart';
 import 'package:my_portfolio/models/education_model.dart';
 import 'package:my_portfolio/models/job_model.dart';
 import 'package:my_portfolio/models/project_model.dart';
@@ -28,6 +30,7 @@ class _DashboardPageState extends State<DashboardPage> {
   final _firstExpKey = GlobalKey();
   final _firstEduKey = GlobalKey();
   final _firstProjectKey = GlobalKey();
+  final _firstArticleKey = GlobalKey();
   final _scrollController = ScrollController();
 
   double get edge => MediaQuery.sizeOf(context).height * 0.3;
@@ -50,12 +53,16 @@ class _DashboardPageState extends State<DashboardPage> {
           final posExp = _getWidgetYPos(_firstExpKey);
           final posEdu = _getWidgetYPos(_firstEduKey);
           final posProj = _getWidgetYPos(_firstProjectKey);
+          final posArticle = _getWidgetYPos(_firstArticleKey);
           final isExp = posExp < edge;
           final isEdu = posEdu < edge;
           final isProj = posProj < edge;
+          final isArticle = posArticle < edge;
 
           if (isProj) {
             SectionNotifier.selectedSection.value = Sections.projects;
+          } else if (isArticle) {
+            SectionNotifier.selectedSection.value = Sections.articles;
           } else if (isEdu) {
             SectionNotifier.selectedSection.value = Sections.education;
           } else if (isExp) {
@@ -89,6 +96,8 @@ class _DashboardPageState extends State<DashboardPage> {
         return _firstEduKey.currentContext;
       case Sections.projects:
         return _firstProjectKey.currentContext;
+      case Sections.articles:
+        return _firstArticleKey.currentContext;
     }
   }
 
@@ -176,6 +185,28 @@ class _DashboardPageState extends State<DashboardPage> {
                           ...EducationModel.educations.sublist(1).map(
                                 (e) => EducationItemWidget(
                                   education: e,
+                                ),
+                              ),
+                          const SizedBox(height: 64),
+                          if (!context.isDesktop)
+                            Padding(
+                              padding: const EdgeInsets.symmetric(vertical: 4),
+                              child: Text(
+                                "Articles",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.white,
+                                  fontSize: MyDimentions.textSizeTitleMedium.size,
+                                ),
+                              ),
+                            ),
+                          ArticleItemWidget(
+                            key: _firstArticleKey,
+                            article: ArticleModel.articles.first,
+                          ),
+                          ...ArticleModel.articles.sublist(1).map(
+                                (e) => ArticleItemWidget(
+                                  article: e,
                                 ),
                               ),
                           const SizedBox(height: 64),
