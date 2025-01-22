@@ -1,0 +1,18 @@
+[
+    {
+        "title": "View Validation In SwiftUI",
+        "publish_date" : "Jan 18,2025",
+        "summary": "In this article, I introduce a reusable and flexible method for validating views with an action in SwiftUI, eliminating the boilerplate often associated with traditional approaches. Inspired by Flutter’s TextField validation mechanism using WidgetKeys, the method is designed to work seamlessly across different view types, making it ideal for developers seeking clean and efficient validation solutions.",
+        "topics" : ["Swift", "SwiftUI", "Validation" , "IOS" , "Preference Key"],
+        "impact": "",
+        "link" : "https://medium.com/@mhd.nidal.mhd/view-validation-in-swiftui-ba02d2b59f5a" 
+    },
+    {
+        "title": "Generic Vuexy Table In Flutter",
+        "publish_date" : "Jul 19,2023",
+        "summary": "This article demonstrates how to replicate a data table component using Flutter, showcasing its potential for building multi-platform web applications. Inspired by Vuexy’s popularity, the project evolved into a concept for developing a flexible and adaptable framework suitable for various purposes. The article highlights Flutter’s versatility and provides insights into creating dynamic UI components.",
+        "topics": ["Flutter", "Vuexy", "Generic", "Cubit", "Table"],
+        "impact": "",
+        "link" : "https://medium.com/@mhd.nidal.mhd/generic-vuexy-table-in-flutter-bf3f8bed150d" 
+    }
+]
